@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+}
+.amazonlogo{
+    height: 50px;
+    width: 100px;
+}
+#amazonlogo{
+    background-image: url("amazone.jpg");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+    border-radius: 10%;
+
+}
+.location{
+    color: white;
+    font-size: 0.75rem;
+   
+}
+#DeliverTo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#locationlogo{
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.searchbox{
+    
+    display: flex;
+    height: 40px;
+    width: 950px;
+    background-color:white ;
+    margin: 10px;
+    align-items: center;
+    border-radius: 3px;
+    border:none;
+   
+  
+}
+.SearchBoxElements{
+    height: 40px;
+    display: flex;
+    
+}
+
+#SelectSearch{
+    height: 100%;
+    width:60px;
+    background-color: rgb(238, 228, 228);
+    border:none;
+    
+    
+ 
+}
+.searchwrite{
+    height: 36.4px;
+    width: 100%;
+    border: 1px solid transparent;
+}
+#searchwrite{
+    height: 34px;
+    width: 100%;
+    border: 1px solid transparent;
+}
+.SearchIcon{
+    background-color:  #FF9800;
+    height: 40px;
+    width:60px;
+    border-radius: 3px;
+    display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.languageSetting{
+    height: 100%;
+    width: 73.38px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignIn{
+    height: 100%;
+    width: 133px;
+    color: white;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+#Signin{
+    height: 50%;
+    width: 133px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#Accounts{
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
+}
+.Returns{
+    height: 100%;
+    width: 77px;
+    color:white;
+    display: inline;
+
+}
+#returns{
+    height: 50%;
+    width: 77px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+   
+}
+#orders{
+    height: 50%;
+    width: 77px;
+    font-size: 0.9rem;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+.Cart{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#CartWord{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
